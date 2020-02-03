@@ -1,0 +1,15 @@
+<!--pages/centerDemo/centerDemo.wxml-->
+<view class="main">
+  <view class="flex-center-in-row">
+    Rust Fisher 水平方向居中
+  </view>
+
+  <view class="flex-center-in-column">
+    Rust Fisher 垂直方向居中
+  </view>
+
+  <view class="flex-center-in-cube">
+    Rust Fisher 方块内居中
+  </view>
+
+</view>

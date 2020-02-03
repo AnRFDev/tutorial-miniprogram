@@ -1,0 +1,36 @@
+/* pages/centerDemo/centerDemo.wxss */
+
+page {
+  background: #f3f3f3;
+}
+
+.main {
+}
+
+.main view {
+  background: #4caf50;
+  margin-top: 20px;
+  color: white;
+}
+
+.flex-center-in-row {
+  background: #eaeaea;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40px;
+}
+
+.flex-center-in-column {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.flex-center-in-cube {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

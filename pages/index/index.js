@@ -50,5 +50,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  
+  onTapUrlTarget:function(e) {
+    wx.navigateTo({
+      url: e.currentTarget.dataset.target,
+    })
   }
 })
